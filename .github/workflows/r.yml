@@ -32,7 +32,7 @@ jobs:
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
       - name: Build pkgdown website
-        run: Rscript -e 'pkgdown::build_site()'
+        run: Rscript -e "pkgdown::build_site()"
         shell: Rscript {0}
 
 # Add the following steps if you want to deploy the website to GitHub Pages
