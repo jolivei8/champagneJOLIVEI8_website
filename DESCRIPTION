@@ -1,0 +1,18 @@
+Package: champagneJOLIVEI8
+Type: Package
+Title: Champagne Glass Modeling and Simulation
+Version: 0.1.0
+Author: Jéssica Oliveira
+Maintainer: Jéssica Oliveira <jessica.oliveira@unil.ch>
+Description: 
+    The champagneJOLIVEI8 package provides functions for modeling the volume
+    of a champagne glass based on its height and radius. It includes both 
+    non-vectorized and vectorized versions of the modeling function. Additionally,
+    the package offers a simulation function to estimate the amount of champagne
+    needed for a party based on the number of guests, glasses per guest, and 
+    pouring intervals.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: purrr
